@@ -118,7 +118,7 @@ function Demo({ t }: { t: (k: string) => string; lang: Lang }) {
             ))}
             <tr className="border-t" style={{ borderColor: 'var(--border)' }}>
               <td className="body-6 py-4 pe-4" style={{ color: 'var(--muted)' }}>{t('demo.comparePrice')}</td>
-              {plans.map((p) => (<td key={p.name} className="body-5 py-4 pe-4">{'{{price}}'}</td>))}
+              {plans.map((p) => (<td key={p.name} className="body-5 py-4 pe-4">{'$19'}</td>))}
             </tr>
           </tbody>
         </table>
